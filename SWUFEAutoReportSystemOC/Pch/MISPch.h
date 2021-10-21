@@ -1,0 +1,12 @@
+//
+// Created by JavaMan on 2021/10/20.
+//
+
+#ifndef SWUFEAUTOREPORTSYSTEMOC_MISPCH_H
+#define SWUFEAUTOREPORTSYSTEMOC_MISPCH_H
+
+#include "MISStdDef.h"
+
+#include "MISOCSugar.h"
+
+#endif //SWUFEAUTOREPORTSYSTEMOC_MISPCH_H

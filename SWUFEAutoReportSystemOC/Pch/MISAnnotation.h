@@ -1,0 +1,14 @@
+//
+// Created by JavaMan on 2021/10/20.
+//
+
+#ifndef SWUFEAUTOREPORTSYSTEMOC_MISANNOTATION_H
+#define SWUFEAUTOREPORTSYSTEMOC_MISANNOTATION_H
+
+#define override
+
+#define getter
+
+#define setter
+
+#endif //SWUFEAUTOREPORTSYSTEMOC_MISANNOTATION_H
