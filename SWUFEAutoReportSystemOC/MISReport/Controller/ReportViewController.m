@@ -54,14 +54,7 @@
 
 - protected getter (UITextField *)usernameField {
     if (!_usernameField) {
-        _usernameField = [[UITextField alloc] init];
-        [_usernameField setBackgroundColor:UniteTextFieldColor];
-        _usernameField.layer.masksToBounds = true;
-        _usernameField.borderStyle = UITextBorderStyleRoundedRect;
-        _usernameField.layer.cornerRadius = 20;
-        // 要么就重写控件;
-        [_usernameField setValue:@10 forKey:@"paddingLeft"];//左
-        [_usernameField setValue:@10 forKey:@"paddingRight"];//右
+        _usernameField = [[MISTextField alloc] init];
     }
     return _usernameField;
 }

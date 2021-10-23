@@ -22,11 +22,11 @@
 
 //控制placeHolder 的位置，左右缩 8px
 - protected override (CGRect)textRectForBounds:(CGRect)bounds {
-    return CGRectInset(bounds, 10, 0);
+    return CGRectInset(bounds, 15, 0);
 }
 
 // 控制文本的位置，左右缩 8px
 - protected override (CGRect)editingRectForBounds:(CGRect)bounds {
-    return CGRectInset(bounds, 10, 0);
+    return CGRectInset(bounds, 15, 0);
 }
 @end

@@ -10,5 +10,7 @@
 #include "MISPch.h"
 #include "Config.h"
 
+#import "MISTextField.h"
+
 @interface ReportViewController : UIViewController
 @end
