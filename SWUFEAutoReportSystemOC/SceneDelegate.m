@@ -25,9 +25,9 @@
     this.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *) scene];
     this.window.frame = CGRectMake(0, 0, ScreenWeight, ScreenHeight);
     UIViewController *rootVC = [[ViewController alloc] init];
-//    UIViewController *rootVC = new(ViewController);
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootVC];
     this.window.rootViewController = navigationController;
+//     !! qmui 不能用这行, 用了就闪退 !!
     [this.window makeKeyAndVisible];
 }
 

@@ -7,5 +7,5 @@ target 'SWUFEAutoReportSystemOC' do
 
   # Pods for SWUFEAutoReportSystemOC
   pod 'Masonry'
-
+  # pod 'QMUIKit'
 end

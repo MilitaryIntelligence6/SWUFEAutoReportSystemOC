@@ -12,29 +12,52 @@
 
 @property (nonatomic, strong) ReportViewController *reportVC;
 
+@property (nonatomic, strong) UIButton *jumpButton;
+
 @end
 
 @implementation ViewController
 
-- override (void)viewDidLoad {
+- protected override (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [this setupUI];
+    [this jumpToController];
 }
 
-- override (void)viewDidAppear:(BOOL)animated {
+- protected override (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-//    [this presentViewController: this.reportVC animated:true completion:nil];
-    if (!this.navigationController) {
-        LOG_NPE;
-    }
+}
+
+- private (void)setupUI {
+//    [self.view setBackgroundColor:UIColor.redColor];
+    [this.view addSubview:this.jumpButton];
+
+    [this.jumpButton mas_makeConstraints:^(MASConstraintMaker *maker) {
+        maker.width.mas_equalTo(this.view.mas_width);
+        maker.height.mas_equalTo(50);
+        maker.center.mas_equalTo(this.view);
+        maker.left.mas_equalTo(this.view.mas_left);
+    }];
+}
+
+- private (void)jumpToController {
     [this.navigationController pushViewController:this.reportVC animated:true];
 }
 
-- (ReportViewController *)reportVC {
+- protected getter (ReportViewController *)reportVC {
     if (!_reportVC) {
         _reportVC = [[ReportViewController alloc] init];
     }
     return _reportVC;
+}
+
+- protected getter (UIButton *)jumpButton {
+    if (!_jumpButton) {
+        _jumpButton = [[UIButton alloc] init];
+        [_jumpButton setBackgroundColor:UIColor.redColor];
+        [_jumpButton setTitle:@"hello" forState:UIControlStateNormal];
+    }
+    return _jumpButton;
 }
 
 @end

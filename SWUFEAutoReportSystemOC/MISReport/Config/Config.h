@@ -1,0 +1,10 @@
+//
+// Created by JavaMan on 2021/10/23.
+//
+
+#ifndef SWUFEAUTOREPORTSYSTEMOC_CONFIG_H
+#define SWUFEAUTOREPORTSYSTEMOC_CONFIG_H
+
+#include "AppStyle.h"
+
+#endif //SWUFEAUTOREPORTSYSTEMOC_CONFIG_H

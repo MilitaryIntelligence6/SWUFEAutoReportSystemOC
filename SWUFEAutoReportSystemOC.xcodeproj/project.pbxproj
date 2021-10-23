@@ -11,12 +11,16 @@
 		9387207060E7B87976852E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93872A81C8BACBB664F7480E /* Main.storyboard */; };
 		9387215514B1EFF88358FED8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872C159FBF49FE56AEFC60 /* SceneDelegate.m */; };
 		938724BD1D4DBBC90A8C36CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938723ADEF661A52416B37D0 /* Assets.xcassets */; };
+		938725535121D463057BC8E0 /* package-info.md in Sources */ = {isa = PBXBuildFile; fileRef = 9387232B8F54DBD1F3DFD8A6 /* package-info.md */; };
 		9387260243C56378C6CFB49A /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938729B7E17F4BC6AA983460 /* ReportViewController.m */; };
 		9387277B4A53356DE69E51C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 938727072E685E01A434A0C5 /* main.m */; };
 		938728D6E7C9D52C9EE27450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93872BCAB2484D51E1389592 /* LaunchScreen.storyboard */; };
 		93872983B1CF3271B5E5A509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 938724A9E357447B1701851B /* AppDelegate.m */; };
+		938729D79DC343746C940E1B /* MISTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872411622E882960896A63 /* MISTextField.m */; };
 		93872C755B1F558CDA7394B2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872754DBC502EF90AEADB8 /* WebViewController.m */; };
+		93872DB5E1081FB15E1F24F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93872701ACBC93EFBD81D18F /* Podfile */; };
 		93872E77FC5A93718B0DB4A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938722CC406A65EEC7287447 /* ViewController.m */; };
+		93872EE5D80ED62F484755A1 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 9387237F2210D8EC0DF1FC3C /* Podfile.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,14 +28,20 @@
 		2E9F02A8D35C5691F3384BDE /* Pods-SWUFEAutoReportSystemOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWUFEAutoReportSystemOC.debug.xcconfig"; path = "Target Support Files/Pods-SWUFEAutoReportSystemOC/Pods-SWUFEAutoReportSystemOC.debug.xcconfig"; sourceTree = "<group>"; };
 		938721C4749FDCF7ED915D4D /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
 		93872206D4B0B5F569E83714 /* MISOCSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISOCSugar.h; sourceTree = "<group>"; };
+		938722970D8B4DDEA5CCEAC6 /* AppStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStyle.h; sourceTree = "<group>"; };
 		938722CC406A65EEC7287447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9387232B8F54DBD1F3DFD8A6 /* package-info.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "package-info.md"; sourceTree = "<group>"; };
 		9387237762F030BD7B857645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9387237F2210D8EC0DF1FC3C /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = file.lock; path = Podfile.lock; sourceTree = "<group>"; };
 		9387239E186B60C1644BFA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938723ADEF661A52416B37D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93872411622E882960896A63 /* MISTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISTextField.m; sourceTree = "<group>"; };
 		938724A9E357447B1701851B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9387265D1183CB87D11E4838 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		93872701ACBC93EFBD81D18F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		938727072E685E01A434A0C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93872754DBC502EF90AEADB8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9387281EF32759BAD68D93F3 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		93872859483C1B4D6497142D /* SWUFEAutoReportSystemOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWUFEAutoReportSystemOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93872861BBBA5353C9CE353E /* MISStdDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISStdDef.h; sourceTree = "<group>"; };
 		938729548BE779CCE45E8BCA /* MISJava.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISJava.h; sourceTree = "<group>"; };
@@ -43,6 +53,7 @@
 		93872ADE9971309446CA148D /* MISAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISAnnotation.h; sourceTree = "<group>"; };
 		93872BF349888D491C660A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		93872C159FBF49FE56AEFC60 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		93872D16A984A906FDABCC53 /* MISTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISTextField.h; sourceTree = "<group>"; };
 		93872F0E83790460790AA6EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93872F1768C5D86A2CB4E444 /* MISPch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISPch.h; sourceTree = "<group>"; };
 		DDF383A39BF7A2A9C5947B9D /* Pods_SWUFEAutoReportSystemOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWUFEAutoReportSystemOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +85,6 @@
 				2E9F02A8D35C5691F3384BDE /* Pods-SWUFEAutoReportSystemOC.debug.xcconfig */,
 				2909522C132C1D1B17616D1E /* Pods-SWUFEAutoReportSystemOC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -92,6 +102,13 @@
 			path = Pch;
 			sourceTree = "<group>";
 		};
+		938722E8171009A361DE6242 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		938722FBFF4182E550B625DA = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +116,17 @@
 				93872E0DBBE096098ADB1891 /* SWUFEAutoReportSystemOC */,
 				77F262F157598A9549B92B16 /* Pods */,
 				61AB97D1E9B8576C12993BC3 /* Frameworks */,
+				93872701ACBC93EFBD81D18F /* Podfile */,
+				9387237F2210D8EC0DF1FC3C /* Podfile.lock */,
 			);
+			sourceTree = "<group>";
+		};
+		938723A57309DA8C1166E0C5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9387232B8F54DBD1F3DFD8A6 /* package-info.md */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		938723EABEE12E34051344C6 /* Products */ = {
@@ -125,8 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				938724CC50A74CF6F3A6C21A /* Controller */,
-				93872DE6EDCE0F72303281F2 /* Ui */,
+				93872DE6EDCE0F72303281F2 /* UI */,
 				93872B22C72D36334FF27BD1 /* Entity */,
+				93872E3099098D49EE74956E /* Config */,
 			);
 			path = MISReport;
 			sourceTree = "<group>";
@@ -138,11 +166,13 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		93872DE6EDCE0F72303281F2 /* Ui */ = {
+		93872DE6EDCE0F72303281F2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				93872411622E882960896A63 /* MISTextField.m */,
+				93872D16A984A906FDABCC53 /* MISTextField.h */,
 			);
-			path = Ui;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		93872E0DBBE096098ADB1891 /* SWUFEAutoReportSystemOC */ = {
@@ -161,8 +191,19 @@
 				93872A81C8BACBB664F7480E /* Main.storyboard */,
 				93872696538E0F8298B0A7B9 /* MISReport */,
 				9387220CF0C2A10291AC4C0D /* Pch */,
+				938723A57309DA8C1166E0C5 /* Library */,
+				938722E8171009A361DE6242 /* Configuration */,
 			);
 			path = SWUFEAutoReportSystemOC;
+			sourceTree = "<group>";
+		};
+		93872E3099098D49EE74956E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9387281EF32759BAD68D93F3 /* Config.h */,
+				938722970D8B4DDEA5CCEAC6 /* AppStyle.h */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +217,7 @@
 				938723DBBD17C97F1E96CDDD /* Sources */,
 				9387276D4B115D1E8B77E0C6 /* Frameworks */,
 				93872BFF8BAB3BEDA8C63C83 /* Resources */,
-				2ADDEA4F444EC2E41CF4E3BB /* [CP] Embed Pods Frameworks */,
+				AA79C1344A730AB6455DCB43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +233,16 @@
 /* Begin PBXProject section */
 		9387235AA92D07DCB62838D7 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 93872061368FA7E397AEFCAA /* Build configuration list for PBXProject "SWUFEAutoReportSystemOC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = 938722FBFF4182E550B625DA;
 			productRefGroup = 938723EABEE12E34051344C6 /* Products */;
@@ -217,13 +262,15 @@
 				938724BD1D4DBBC90A8C36CF /* Assets.xcassets in Resources */,
 				938728D6E7C9D52C9EE27450 /* LaunchScreen.storyboard in Resources */,
 				9387207060E7B87976852E09 /* Main.storyboard in Resources */,
+				93872DB5E1081FB15E1F24F7 /* Podfile in Resources */,
+				93872EE5D80ED62F484755A1 /* Podfile.lock in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2ADDEA4F444EC2E41CF4E3BB /* [CP] Embed Pods Frameworks */ = {
+		AA79C1344A730AB6455DCB43 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,6 +323,8 @@
 				93872E77FC5A93718B0DB4A8 /* ViewController.m in Sources */,
 				9387260243C56378C6CFB49A /* ReportViewController.m in Sources */,
 				93872C755B1F558CDA7394B2 /* WebViewController.m in Sources */,
+				938725535121D463057BC8E0 /* package-info.md in Sources */,
+				938729D79DC343746C940E1B /* MISTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +509,7 @@
 				93872E69BDE2A689642CC281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

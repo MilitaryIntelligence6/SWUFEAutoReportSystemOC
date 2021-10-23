@@ -8,6 +8,11 @@
       </map>
     </option>
   </component>
+  <component name="CidrRootsConfiguration">
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/Pods" />
+    </libraryRoots>
+  </component>
   <component name="JUnitGeneratorProjectSettings">
     <option name="outputFilePattern" value="${SOURCEPATH}../../../test/java/${PACKAGE}/${FILENAME}" />
     <option name="selectedTemplateKey" value="JUnit 4" />
